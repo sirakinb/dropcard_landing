@@ -5,23 +5,28 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'DropCard — Your Networking. Upgraded.',
+  title: 'Drop Card - Networking Made Effortless',
   description:
     'DropCard is a digital business card app that lets you instantly exchange contact info, remember who you meet, and organize your network. Join the beta.',
+  icons: {
+    icon: '/card/dc_logo.png',
+    shortcut: '/card/dc_logo.png',
+    apple: '/card/dc_logo.png',
+  },
   openGraph: {
-    title: 'DropCard — Your Networking. Upgraded.',
+    title: 'Drop Card - Networking Made Effortless',
     description:
       'DropCard is a digital business card app that lets you instantly exchange contact info, remember who you meet, and organize your network. Join the beta.',
     images: [
-      { url: '/og.png', width: 1200, height: 630, alt: 'DropCard' },
+      { url: '/card/your-networking-upgraded.png' },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DropCard — Your Networking. Upgraded.',
+    title: 'Drop Card - Networking Made Effortless',
     description:
       'DropCard is a digital business card app that lets you instantly exchange contact info, remember who you meet, and organize your network. Join the beta.',
-    images: ['/og.png'],
+    images: ['/card/your-networking-upgraded.png'],
   },
 };
 
