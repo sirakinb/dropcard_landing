@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- We deliberately overscale the PNG inside the viewBox to crop padding and make the mark appear larger in tabs -->
+  <image href="/card/dc_logo.png" x="-12" y="-12" width="124" height="124" preserveAspectRatio="xMidYMid slice"/>
+</svg>
+
+

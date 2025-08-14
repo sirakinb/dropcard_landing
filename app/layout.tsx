@@ -9,8 +9,11 @@ export const metadata: Metadata = {
   description:
     'DropCard is a digital business card app that lets you instantly exchange contact info, remember who you meet, and organize your network. Join the beta.',
   icons: {
-    icon: '/card/dc_logo.png',
-    shortcut: '/card/dc_logo.png',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/card/dc_logo.png', type: 'image/png' },
+    ],
+    shortcut: '/favicon.svg',
     apple: '/card/dc_logo.png',
   },
   openGraph: {
