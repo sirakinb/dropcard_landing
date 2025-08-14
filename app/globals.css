@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Refined accent: deep indigo to rich fuchsia */
+  --accent-start: #4C1D95; /* indigo */
+  --accent-end: #A21CAF;   /* fuchsia */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.accent-gradient {
+  background-image: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+}
+
+.cta-gradient {
+  background: radial-gradient(60% 120% at 50% 0%, #6b1fe5 0%, #5a1bd6 35%, #3e1ab4 60%, #271a8f 85%),
+              linear-gradient(135deg, #2b0b3f 0%, #170b2f 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent-start), var(--accent-end));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
