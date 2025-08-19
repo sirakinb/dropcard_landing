@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Drop Card - Networking Made Effortless',
     description:
-      'DropCard is a digital business card app that lets you instantly exchange contact info, remember who you meet, and organize your network. Join the beta.',
+      'DropCard is a digital business card app that lets you instantly exchange contact info, remember who you meet, and organize your network. Join the waitlist.',
     images: ['/card/your-networking-upgraded.png'],
   },
 };

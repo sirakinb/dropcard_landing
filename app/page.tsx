@@ -33,7 +33,7 @@ export default function Page() {
               </a>
             ))}
           </nav>
-          <a href="#hero-cta" className="ml-4 rounded-xl px-4 py-2 text-sm font-medium text-white accent-gradient shadow-sm">Join the beta</a>
+          <a href="#hero-cta" className="ml-4 rounded-xl px-4 py-2 text-sm font-medium text-white accent-gradient shadow-sm">Join the waitlist</a>
         </div>
       </header>
 

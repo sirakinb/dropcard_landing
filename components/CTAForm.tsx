@@ -85,7 +85,7 @@ export default function CTAForm({ formLocation }: Props) {
           disabled={submitting}
           className="rounded-xl px-5 py-3 font-medium text-white disabled:opacity-60 accent-gradient shadow-sm hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-300"
         >
-          {submitting ? 'Joining…' : 'Join the beta'}
+          {submitting ? 'Joining…' : 'Join the waitlist'}
         </button>
       </div>
       {error && (
