@@ -10,7 +10,7 @@ export async function POST(req: Request) {
     console.log('New beta signup:', { email });
 
     // Forward to Make.com webhook (server-side to avoid exposing the URL in the client)
-    const webhookUrl = 'https://hook.us2.make.com/peahdkorlz0p1fekq8v3a79eah77wnr2';
+    const webhookUrl = 'https://hook.us2.make.com/adail5fohnfnxya9qk44pnp1xhusenpf';
     try {
       await fetch(webhookUrl, {
         method: 'POST',
