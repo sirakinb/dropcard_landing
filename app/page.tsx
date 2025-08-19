@@ -119,19 +119,28 @@ export default function Page() {
                 <Image src="/card/card-lifestyle.png" alt="Tap card to phone" fill sizes="(max-width: 1024px) 90vw, 640px" className="object-contain" />
               </div>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-4">
               <h3 className="text-xl sm:text-2xl font-semibold tracking-tight">Networking at the speed of a tap</h3>
               <p className="text-stone-600 max-w-prose">Complement your mobile experience with an NFC-powered DropCard and share your profile with just a tap. Available on TikTok Shop.</p>
-              <div>
-                <a
-                  href="https://www.tiktok.com/view/product/1731550078413280064?_svg=3&checksum=3fce788791f5c4dbbd7f2e1d471083c6475da0747c47bec5b37bc317b1f9e8ee&encode_params=MIIBUQQM_gqry86S78Tu50VzBIIBLVLSi6-ejcWCLchtfmOMuR_FEzyYfy4BAqaB-471S-cexm8cA4DDNZ_AUOxwaogwmCb3l8aLNMbFOuigUoDt4MTMm4r9CW4uMvSDE_hnt6F0zS3hdP_xE5BO781wHO6CN4-iC9L9f43BGCuoQaMhFqAp5Ny_KGy76BGZYQl-VJ28rxwglkq6nVrabluVsDMRkzJLl0wZ559sckWvSEUQfMncPjw_uSM_XK9pApXPP9D_MfrSXRV8-ic31CkOxBCAQcfA-iat_vMXBbHY4EPW8-bYigtGqjBTviqjsqg-4MRbYzPJh6-9RB_fYxs1DuzZamgpaZ_rsdstqxVn9pydcsrILZqqLvh7i_6PmxVzjI4Io-rB_3KFzvlJQbYL_06pMsZV2sdDvA-6uQxjS1UEENbefkPzQvCmHmvycxFLbsM%3D&og_info=%7B%22title%22%3A%22Drop+Card+Digital+Business+Card+-+Smart+Networking+Card+-+Tap+to+Share+-+iPhone+-+NFC-Powered+Instant+Sharing+%26+Contact+Management+-+Modern+Professional+Tool%22%2C%22image%22%3A%22https%3A%5C%2F%5C%2Fp16-oec-general-useast5.ttcdn-us.com%5C%2Ftos-useast5-i-omjb5zjo8w-tx%5C%2F219e840c2bb642c886f0c280091d71ca~tplv-fhlh96nyum-resize-webp%3A260%3A260.webp%3Fdr%3D12185%26t%3D555f072d%26ps%3D933b5bde%26shp%3D7745054a%26shcp%3D9b759fb9%26idc%3Duseast5%26from%3D2001012042%22%7D&sec_user_id=MS4wLjABAAAASYq6d_Y00mzY6y8B4JX7f_omLlnSuVVQ13p2VJRkdjrdPR0HcUN3pNWx_Vzze_Ez&share_app_id=1233&share_link_id=E8592454-3E62-4A6A-8044-6BC98DD80EB5&social_share_type=15&timestamp=1755134816&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22device_id%22%3A%227241647867314718254%22%2C%22enable_shop_tab_popup%22%3A1%7D&tt_from=sms&u_code=EKJJLJJ2D3DGM0&ug_btm=b0%2Cb6661&unique_id=dropcard.ai&user_id=7513731422051419182&utm_campaign=client_share&utm_medium=ios&utm_source=sms"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex rounded-xl px-4 py-2 text-sm font-medium border border-stone-300 text-stone-800 hover:bg-stone-50"
-                >
-                  Learn More
-                </a>
+              
+              {/* Early Access CTA */}
+              <div className="rounded-2xl bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 p-4">
+                <div className="space-y-3">
+                  <h4 className="font-semibold text-purple-900">Get Early Access</h4>
+                  <p className="text-sm text-purple-700">Purchase the physical NFC card and get exclusive early access to DropCard before public launch.</p>
+                  <div>
+                    <a
+                      href="https://www.tiktok.com/view/product/1731550078413280064?_svg=3&checksum=3fce788791f5c4dbbd7f2e1d471083c6475da0747c47bec5b37bc317b1f9e8ee&encode_params=MIIBUQQM_gqry86S78Tu50VzBIIBLVLSi6-ejcWCLchtfmOMuR_FEzyYfy4BAqaB-471S-cexm8cA4DDNZ_AUOxwaogwmCb3l8aLNMbFOuigUoDt4MTMm4r9CW4uMvSDE_hnt6F0zS3hdP_xE5BO781wHO6CN4-iC9L9f43BGCuoQaMhFqAp5Ny_KGy76BGZYQl-VJ28rxwglkq6nVrabluVsDMRkzJLl0wZ559sckWvSEUQfMncPjw_uSM_XK9pApXPP9D_MfrSXRV8-ic31CkOxBCAQcfA-iat_vMXBbHY4EPW8-bYigtGqjBTviqjsqg-4MRbYzPJh6-9RB_fYxs1DuzZamgpaZ_rsdstqxVn9pydcsrILZqqLvh7i_6PmxVzjI4Io-rB_3KFzvlJQbYL_06pMsZV2sdDvA-6uQxjS1UEENbefkPzQvCmHmvycxFLbsM%3D&og_info=%7B%22title%22%3A%22Drop+Card+Digital+Business+Card+-+Smart+Networking+Card+-+Tap+to+Share+-+iPhone+-+NFC-Powered+Instant+Sharing+%26+Contact+Management+-+Modern+Professional+Tool%22%2C%22image%22%3A%22https%3A%5C%2F%5C%2Fp16-oec-general-useast5.ttcdn-us.com%5C%2Ftos-useast5-i-omjb5zjo8w-tx%5C%2F219e840c2bb642c886f0c280091d71ca~tplv-fhlh96nyum-resize-webp%3A260%3A260.webp%3Fdr%3D12185%26t%3D555f072d%26ps%3D933b5bde%26shp%3D7745054a%26shcp%3D9b759fb9%26idc%3Duseast5%26from%3D2001012042%22%7D&sec_user_id=MS4wLjABAAAASYq6d_Y00mzY6y8B4JX7f_omLlnSuVVQ13p2VJRkdjrdPR0HcUN3pNWx_Vzze_Ez&share_app_id=1233&share_link_id=E8592454-3E62-4A6A-8044-6BC98DD80EB5&social_share_type=15&timestamp=1755134816&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22device_id%22%3A%227241647867314718254%22%2C%22enable_shop_tab_popup%22%3A1%7D&tt_from=sms&u_code=EKJJLJJ2D3DGM0&ug_btm=b0%2Cb6661&unique_id=dropcard.ai&user_id=7513731422051419182&utm_campaign=client_share&utm_medium=ios&utm_source=sms"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex rounded-xl px-4 py-2 text-sm font-medium border border-stone-300 text-stone-800 hover:bg-stone-50"
+                    >
+                      Learn More
+                    </a>
+                  </div>
+                </div>
               </div>
+              
               <div className="-mt-16 sm:-mt-24 md:-mt-28 lg:-mt-36">
                 <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden bg-white">
                   <Image src="/card/card-solo.png" alt="DropCard — solo card" fill sizes="(max-width: 1024px) 90vw, 640px" className="object-contain rotate-90" />
@@ -217,7 +226,7 @@ function Feature({ icon: Icon, title, desc }: { icon: any; title: string; desc: 
 const faqItems = [
   {
     q: 'Is the app free?',
-    a: 'Yes. The core app is free to use. There’s also a Pro version that includes advanced features such as data analytics and increased usage of the selfie contact memory feature.',
+    a: 'Yes. The core app is free to use. There’s also a Pro version that includes advanced features such as AI chat and increased usage of the selfie contact memory feature.',
   },
   {
     q: 'Do recipients need the app?',
