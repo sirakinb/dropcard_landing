@@ -184,6 +184,21 @@ export default function Page() {
             </div>
           </div>
         </section>
+
+        {/* Legal Notice */}
+        <section className="border-t border-stone-200 bg-stone-50">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8">
+            <div className="text-center text-sm text-stone-600">
+              <p className="mb-2">
+                By using DropCard, you agree to our{' '}
+                <Link href="/terms" className="underline hover:text-stone-800">Terms of Service</Link>
+                {' '}and{' '}
+                <Link href="/privacy" className="underline hover:text-stone-800">Privacy Policy</Link>.
+              </p>
+              <p>© 2025 Pentridge Media LLC. All rights reserved.</p>
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}
@@ -200,8 +215,13 @@ export default function Page() {
             <a href="#card" className="hover:text-stone-800">NFC Card</a>
             <a href="#faq" className="hover:text-stone-800">FAQ</a>
           </nav>
+          <div className="flex items-center gap-4 text-xs">
+            <Link href="/terms" className="hover:text-stone-800">Terms of Service</Link>
+            <span className="text-stone-400">•</span>
+            <Link href="/privacy" className="hover:text-stone-800">Privacy Policy</Link>
+          </div>
           <div className="flex items-center gap-4">
-            <span className="text-stone-500">© 2025 DropCard</span>
+            <span className="text-stone-500">© 2025 Pentridge Media LLC</span>
           </div>
         </div>
       </footer>
