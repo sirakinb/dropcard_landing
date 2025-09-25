@@ -225,7 +225,6 @@ export default function Page() {
         <Link href="/privacy" className="hover:text-stone-800">Privacy Policy</Link>
       </div>
           <div className="flex items-center gap-4">
-            <span className="text-stone-500">© 2025</span>
           </div>
         </div>
       </footer>
