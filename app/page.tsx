@@ -194,6 +194,8 @@ export default function Page() {
                 <Link href="/terms" className="underline hover:text-stone-800">Terms of Service</Link>
                 {' '}and{' '}
                 <Link href="/privacy" className="underline hover:text-stone-800">Privacy Policy</Link>.
+                {' '}Need help? Visit our{' '}
+                <Link href="/help" className="underline hover:text-stone-800">Help page</Link>.
               </p>
               <p>© 2025 Pentridge Media LLC. All rights reserved.</p>
             </div>
@@ -215,13 +217,15 @@ export default function Page() {
             <a href="#card" className="hover:text-stone-800">NFC Card</a>
             <a href="#faq" className="hover:text-stone-800">FAQ</a>
           </nav>
-          <div className="flex items-center gap-4 text-xs">
-            <Link href="/terms" className="hover:text-stone-800">Terms of Service</Link>
-            <span className="text-stone-400">•</span>
-            <Link href="/privacy" className="hover:text-stone-800">Privacy Policy</Link>
-          </div>
+      <div className="flex items-center gap-4 text-xs">
+        <Link href="/help" className="hover:text-stone-800">Help</Link>
+        <span className="text-stone-400">•</span>
+        <Link href="/terms" className="hover:text-stone-800">Terms of Service</Link>
+        <span className="text-stone-400">•</span>
+        <Link href="/privacy" className="hover:text-stone-800">Privacy Policy</Link>
+      </div>
           <div className="flex items-center gap-4">
-            <span className="text-stone-500">© 2025 Pentridge Media LLC</span>
+            <span className="text-stone-500">© 2025</span>
           </div>
         </div>
       </footer>
