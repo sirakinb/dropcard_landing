@@ -23,7 +23,7 @@ export default function PrivacyPage() {
           <h1 className="text-3xl font-bold text-stone-900 mb-8">DropCard Legal</h1>
           
           <div className="bg-stone-50 rounded-lg p-4 mb-8">
-            <p className="text-sm text-stone-600 mb-2"><strong>Last updated:</strong> August 29, 2025</p>
+            <p className="text-sm text-stone-600 mb-2"><strong>Last updated:</strong> September 25, 2025</p>
             <p className="text-sm text-stone-600 mb-2"><strong>Operated by:</strong> Pentridge Media LLC (Pennsylvania, United States)</p>
             <p className="text-sm text-stone-600"><strong>Contact:</strong> team@dropcard.app</p>
           </div>
