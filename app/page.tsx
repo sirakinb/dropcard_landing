@@ -56,7 +56,7 @@ export default function Page() {
               </div>
             </div>
             <div className="lg:pl-6">
-              <HeroVisual src="/screens/hero-profile-contacts.png" alt="DropCard profile and contacts" priority />
+              <HeroVisual src="/screens/2hero-profile-contacts.png" alt="DropCard profile and contacts" priority />
             </div>
           </div>
         </Section>
@@ -71,13 +71,13 @@ export default function Page() {
               <StepItem key={step} delay={step * 0.05} className="space-y-4">
                 
                 {step === 1 && (
-                  <DeviceFrame src="/screens/how-cards.png?v=2" alt="Create your digital card" />
+                  <DeviceFrame src="/screens/2how-cards.png" alt="Create your digital card" />
                 )}
                 {step === 2 && (
-                  <DeviceFrame src="/screens/how-share.png" alt="Share in seconds" />
+                  <DeviceFrame src="/screens/2how-share.png" alt="Share in seconds" />
                 )}
                 {step === 3 && (
-                  <DeviceFrame src="/screens/how-selfie.png?v=2" alt="Remember every connection" />
+                  <DeviceFrame src="/screens/2how-selfie.png" alt="Remember every connection" />
                 )}
                 <div>
                   <h3 className="font-medium">
@@ -99,7 +99,7 @@ export default function Page() {
           </div>
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div className="space-y-0">
-              <DeviceFrame src="/screens/scan.png" alt="AI business card capture" />
+              <DeviceFrame src="/screens/2scan.png" alt="AI business card capture" />
               <p className="text-center text-sm text-stone-600">AI business card capture</p>
             </div>
             <div className="grid grid-cols-2 gap-6 items-stretch content-stretch grid-rows-2 min-h-[560px] md:min-h-[680px] lg:min-h-[760px]">
@@ -116,7 +116,7 @@ export default function Page() {
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div className="rounded-3xl bg-stone-50 ring-1 ring-stone-200 shadow-sm p-4 sm:p-6">
               <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-white">
-                <Image src="/card/card-lifestyle.png" alt="Tap card to phone" fill sizes="(max-width: 1024px) 90vw, 640px" className="object-contain" />
+                <Image src="/card/2card-lifestyle.png" alt="Tap card to phone" fill sizes="(max-width: 1024px) 90vw, 640px" className="object-contain" />
               </div>
             </div>
             <div className="space-y-4">
