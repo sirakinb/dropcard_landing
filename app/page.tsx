@@ -55,7 +55,7 @@ export default function Page() {
                 <CTAForm formLocation="hero" />
               </div>
             </div>
-            <div className="lg:pl-6">
+            <div className="lg:pl-6 -mt-8">
               <HeroVisual src="/screens/2hero-profile-contacts.png" alt="DropCard profile and contacts" priority />
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function Page() {
               <StepItem key={step} delay={step * 0.05} className="space-y-4">
                 
                 {step === 1 && (
-                  <DeviceFrame src="/screens/2how-cards.png" alt="Create your digital card" />
+                  <DeviceFrame src="/screens/3how-cards.png" alt="Create your digital card" />
                 )}
                 {step === 2 && (
                   <DeviceFrame src="/screens/2how-share.png" alt="Share in seconds" />

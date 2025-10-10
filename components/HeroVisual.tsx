@@ -24,7 +24,7 @@ export default function HeroVisual({ src, alt, priority }: Props) {
           priority={priority}
           fill
           sizes="(max-width: 1024px) 90vw, 760px"
-          className="object-contain origin-center scale-[1.2] md:scale-[1.35] lg:scale-[1.45]"
+          className="object-contain origin-center scale-[1.2] md:scale-[1.35] lg:scale-[1.45] translate-y-8"
         />
       </div>
     </motion.div>
