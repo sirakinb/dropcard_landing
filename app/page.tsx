@@ -116,7 +116,7 @@ export default function Page() {
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div className="rounded-3xl bg-stone-50 ring-1 ring-stone-200 shadow-sm p-4 sm:p-6">
               <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-white">
-                <Image src="/card/2card-lifestyle.png" alt="Tap card to phone" fill sizes="(max-width: 1024px) 90vw, 640px" className="object-contain" />
+                <Image src="/card/2card_lifestyle.png" alt="Tap card to phone" fill sizes="(max-width: 1024px) 90vw, 640px" className="object-cover" />
               </div>
             </div>
             <div className="space-y-4">
