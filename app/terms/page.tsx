@@ -23,7 +23,7 @@ export default function TermsPage() {
           <h1 className="text-3xl font-bold text-stone-900 mb-8">DropCard Legal</h1>
           
           <div className="bg-stone-50 rounded-lg p-4 mb-8">
-            <p className="text-sm text-stone-600 mb-2"><strong>Last updated:</strong> September 25, 2025</p>
+            <p className="text-sm text-stone-600 mb-2"><strong>Last updated:</strong> October 11, 2025</p>
             <p className="text-sm text-stone-600 mb-2"><strong>Operated by:</strong> Pentridge Media LLC (Pennsylvania, United States)</p>
             <p className="text-sm text-stone-600"><strong>Contact:</strong> team@dropcard.app</p>
           </div>
@@ -59,10 +59,9 @@ export default function TermsPage() {
             <h2 className="text-xl font-semibold text-stone-900 mb-4">4. Free & Pro Features</h2>
             <div className="bg-white border border-stone-200 rounded-lg p-4 mb-4">
               <p className="text-stone-700 mb-2"><strong>Free:</strong> Limited usage of features.</p>
-              <p className="text-stone-700 mb-2"><strong>Pro:</strong> $3.99/month or $39.99/year (auto-renewing).</p>
+              <p className="text-stone-700 mb-2"><strong>Pro:</strong> $4.99/month or $49.99/year (auto-renewing).</p>
               <ul className="list-disc pl-6 text-stone-700 space-y-1">
                 <li>5 selfie scans → requires Pro</li>
-                <li>25 business card scans → requires Pro</li>
                 <li>AIChat (coming soon) → requires Pro</li>
               </ul>
               <p className="text-stone-700 mt-4 text-sm">We may change plan names, features, or limits with notice.</p>
@@ -127,7 +126,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-stone-900 mb-4">9. Third-Party Services</h2>
             <p className="text-stone-700">
-              We integrate services like Superwall (paywall) and Apple IAP. Your use of those services may be subject to their terms and policies.
+              We integrate services like Firebase and Apple IAP. Your use of those services may be subject to their terms and policies.
             </p>
           </section>
 
@@ -182,7 +181,7 @@ export default function TermsPage() {
 
           <div className="border-t border-stone-200 pt-8 mt-12">
             <p className="text-sm text-stone-500 text-center">
-              Last updated: August 29, 2025
+              Last updated: October 11, 2025
             </p>
           </div>
         </div>

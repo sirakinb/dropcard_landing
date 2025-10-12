@@ -23,7 +23,7 @@ export default function PrivacyPage() {
           <h1 className="text-3xl font-bold text-stone-900 mb-8">DropCard Legal</h1>
           
           <div className="bg-stone-50 rounded-lg p-4 mb-8">
-            <p className="text-sm text-stone-600 mb-2"><strong>Last updated:</strong> September 25, 2025</p>
+            <p className="text-sm text-stone-600 mb-2"><strong>Last updated:</strong> October 11, 2025</p>
             <p className="text-sm text-stone-600 mb-2"><strong>Operated by:</strong> Pentridge Media LLC (Pennsylvania, United States)</p>
             <p className="text-sm text-stone-600"><strong>Contact:</strong> team@dropcard.app</p>
           </div>
@@ -59,7 +59,6 @@ export default function PrivacyPage() {
                 <div className="bg-white border border-stone-200 rounded-lg p-3 mt-2">
                   <ul className="list-disc pl-6 text-stone-700 space-y-1 text-sm">
                     <li><strong>Apple IAP:</strong> Apple processes your payment; we receive subscription status, not full payment details.</li>
-                    <li><strong>Superwall:</strong> Handles paywall and subscription management through Apple IAP.</li>
                   </ul>
                 </div>
               </div>
@@ -91,9 +90,8 @@ export default function PrivacyPage() {
             <p className="text-stone-700 mb-4">We share data only with service providers that help us run DropCard:</p>
             <div className="bg-white border border-stone-200 rounded-lg p-4">
               <ul className="list-disc pl-6 text-stone-700 space-y-2">
-                <li><strong>Superwall</strong> (paywall & entitlements)</li>
                 <li><strong>Apple</strong> (IAP billing & subscription status)</li>
-                <li><strong>Supabase</strong> (database & secure storage)</li>
+                <li><strong>Firebase</strong> (database & secure storage)</li>
                 <li><strong>Vercel</strong> (hosting for web profiles/pages)</li>
               </ul>
             </div>
@@ -112,7 +110,7 @@ export default function PrivacyPage() {
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-stone-900 mb-4">7. Security</h2>
             <p className="text-stone-700">
-              We use administrative, technical, and organizational measures to protect your data, including encrypted transport and storage (via Supabase and other trusted providers). No system is 100% secure.
+              We use administrative, technical, and organizational measures to protect your data, including encrypted transport and storage (via Firebase and other trusted providers). No system is 100% secure.
             </p>
           </section>
 
@@ -171,7 +169,7 @@ export default function PrivacyPage() {
 
           <div className="border-t border-stone-200 pt-8 mt-12">
             <p className="text-sm text-stone-500 text-center">
-              Last updated: August 29, 2025
+              Last updated: October 11, 2025
             </p>
           </div>
         </div>
