@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Camera, IdCard, ScanLine, Globe2 } from 'lucide-react';
-import CTAForm from '../components/CTAForm';
 import Section from '../components/Section';
 import DeviceFrame from '../components/DeviceFrame';
 import HeroVisual from '../components/HeroVisual';
@@ -33,7 +32,6 @@ export default function Page() {
               </a>
             ))}
           </nav>
-          <a href="#hero-cta" className="ml-4 rounded-xl px-4 py-2 text-sm font-medium text-white accent-gradient shadow-sm">Join the waitlist</a>
         </div>
       </header>
 
@@ -47,12 +45,25 @@ export default function Page() {
                   <span className="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping" />
                   <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
                 </span>
-                Now in beta
+                Now Live
               </div>
               <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight">Your Networking. Upgraded.</h1>
               <p className="text-stone-600 max-w-prose">Instantly exchange contact info, remember who you meet, and keep your network organized.</p>
               <div id="hero-cta">
-                <CTAForm formLocation="hero" />
+                <a 
+                  href="https://apps.apple.com/us/app/dropcard-app/id6753614589" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <Image 
+                    src="/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" 
+                    alt="Download on the App Store" 
+                    width={135} 
+                    height={40} 
+                    className="h-12 w-auto"
+                  />
+                </a>
               </div>
             </div>
             <div className="lg:pl-6 -mt-8">
@@ -123,22 +134,15 @@ export default function Page() {
               <h3 className="text-xl sm:text-2xl font-semibold tracking-tight">Networking at the speed of a tap</h3>
               <p className="text-stone-600 max-w-prose">Complement your mobile experience with an NFC-powered DropCard and share your profile with just a tap. Available on TikTok Shop.</p>
               
-              {/* Early Access CTA */}
-              <div className="rounded-2xl bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 p-4">
-                <div className="space-y-3">
-                  <h4 className="font-semibold text-purple-900">Get Early Access</h4>
-                  <p className="text-sm text-purple-700">Purchase the physical NFC card and get exclusive early access to DropCard before public launch.</p>
-                  <div>
-                    <a
-                      href="https://www.tiktok.com/view/product/1731550078413280064?_svg=3&checksum=3fce788791f5c4dbbd7f2e1d471083c6475da0747c47bec5b37bc317b1f9e8ee&encode_params=MIIBUQQM_gqry86S78Tu50VzBIIBLVLSi6-ejcWCLchtfmOMuR_FEzyYfy4BAqaB-471S-cexm8cA4DDNZ_AUOxwaogwmCb3l8aLNMbFOuigUoDt4MTMm4r9CW4uMvSDE_hnt6F0zS3hdP_xE5BO781wHO6CN4-iC9L9f43BGCuoQaMhFqAp5Ny_KGy76BGZYQl-VJ28rxwglkq6nVrabluVsDMRkzJLl0wZ559sckWvSEUQfMncPjw_uSM_XK9pApXPP9D_MfrSXRV8-ic31CkOxBCAQcfA-iat_vMXBbHY4EPW8-bYigtGqjBTviqjsqg-4MRbYzPJh6-9RB_fYxs1DuzZamgpaZ_rsdstqxVn9pydcsrILZqqLvh7i_6PmxVzjI4Io-rB_3KFzvlJQbYL_06pMsZV2sdDvA-6uQxjS1UEENbefkPzQvCmHmvycxFLbsM%3D&og_info=%7B%22title%22%3A%22Drop+Card+Digital+Business+Card+-+Smart+Networking+Card+-+Tap+to+Share+-+iPhone+-+NFC-Powered+Instant+Sharing+%26+Contact+Management+-+Modern+Professional+Tool%22%2C%22image%22%3A%22https%3A%5C%2F%5C%2Fp16-oec-general-useast5.ttcdn-us.com%5C%2Ftos-useast5-i-omjb5zjo8w-tx%5C%2F219e840c2bb642c886f0c280091d71ca~tplv-fhlh96nyum-resize-webp%3A260%3A260.webp%3Fdr%3D12185%26t%3D555f072d%26ps%3D933b5bde%26shp%3D7745054a%26shcp%3D9b759fb9%26idc%3Duseast5%26from%3D2001012042%22%7D&sec_user_id=MS4wLjABAAAASYq6d_Y00mzY6y8B4JX7f_omLlnSuVVQ13p2VJRkdjrdPR0HcUN3pNWx_Vzze_Ez&share_app_id=1233&share_link_id=E8592454-3E62-4A6A-8044-6BC98DD80EB5&social_share_type=15&timestamp=1755134816&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22device_id%22%3A%227241647867314718254%22%2C%22enable_shop_tab_popup%22%3A1%7D&tt_from=sms&u_code=EKJJLJJ2D3DGM0&ug_btm=b0%2Cb6661&unique_id=dropcard.ai&user_id=7513731422051419182&utm_campaign=client_share&utm_medium=ios&utm_source=sms"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex rounded-xl px-4 py-2 text-sm font-medium border border-stone-300 text-stone-800 hover:bg-stone-50"
-                    >
-                      Learn More
-                    </a>
-                  </div>
-                </div>
+              <div>
+                <a
+                  href="https://www.tiktok.com/view/product/1731550078413280064?_svg=3&checksum=3fce788791f5c4dbbd7f2e1d471083c6475da0747c47bec5b37bc317b1f9e8ee&encode_params=MIIBUQQM_gqry86S78Tu50VzBIIBLVLSi6-ejcWCLchtfmOMuR_FEzyYfy4BAqaB-471S-cexm8cA4DDNZ_AUOxwaogwmCb3l8aLNMbFOuigUoDt4MTMm4r9CW4uMvSDE_hnt6F0zS3hdP_xE5BO781wHO6CN4-iC9L9f43BGCuoQaMhFqAp5Ny_KGy76BGZYQl-VJ28rxwglkq6nVrabluVsDMRkzJLl0wZ559sckWvSEUQfMncPjw_uSM_XK9pApXPP9D_MfrSXRV8-ic31CkOxBCAQcfA-iat_vMXBbHY4EPW8-bYigtGqjBTviqjsqg-4MRbYzPJh6-9RB_fYxs1DuzZamgpaZ_rsdstqxVn9pydcsrILZqqLvh7i_6PmxVzjI4Io-rB_3KFzvlJQbYL_06pMsZV2sdDvA-6uQxjS1UEENbefkPzQvCmHmvycxFLbsM%3D&og_info=%7B%22title%22%3A%22Drop+Card+Digital+Business+Card+-+Smart+Networking+Card+-+Tap+to+Share+-+iPhone+-+NFC-Powered+Instant+Sharing+%26+Contact+Management+-+Modern+Professional+Tool%22%2C%22image%22%3A%22https%3A%5C%2F%5C%2Fp16-oec-general-useast5.ttcdn-us.com%5C%2Ftos-useast5-i-omjb5zjo8w-tx%5C%2F219e840c2bb642c886f0c280091d71ca~tplv-fhlh96nyum-resize-webp%3A260%3A260.webp%3Fdr%3D12185%26t%3D555f072d%26ps%3D933b5bde%26shp%3D7745054a%26shcp%3D9b759fb9%26idc%3Duseast5%26from%3D2001012042%22%7D&sec_user_id=MS4wLjABAAAASYq6d_Y00mzY6y8B4JX7f_omLlnSuVVQ13p2VJRkdjrdPR0HcUN3pNWx_Vzze_Ez&share_app_id=1233&share_link_id=E8592454-3E62-4A6A-8044-6BC98DD80EB5&social_share_type=15&timestamp=1755134816&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22device_id%22%3A%227241647867314718254%22%2C%22enable_shop_tab_popup%22%3A1%7D&tt_from=sms&u_code=EKJJLJJ2D3DGM0&ug_btm=b0%2Cb6661&unique_id=dropcard.ai&user_id=7513731422051419182&utm_campaign=client_share&utm_medium=ios&utm_source=sms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex rounded-xl px-4 py-2 text-sm font-medium border border-stone-300 text-stone-800 hover:bg-stone-50"
+                >
+                  Learn More
+                </a>
               </div>
               
               <div className="-mt-16 sm:-mt-24 md:-mt-28 lg:-mt-36">
@@ -175,11 +179,22 @@ export default function Page() {
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
             <div className="relative isolate overflow-hidden rounded-3xl bg-white/10 p-8 sm:p-12 text-center text-white ring-1 ring-white/20 shadow-xl">
               <h2 id="final-cta" className="text-2xl sm:text-3xl font-semibold">Ready to upgrade your networking?</h2>
-              <p className="mt-2 text-white/90">Join the DropCard beta and start connecting smarter today.</p>
-              <div className="mx-auto mt-6 max-w-xl">
-                <div className="rounded-2xl bg-white p-4 shadow-lg ring-1 ring-stone-200">
-                  <CTAForm formLocation="final-cta" />
-                </div>
+              <p className="mt-2 text-white/90">Download DropCard on iOS and start connecting smarter today.</p>
+              <div className="mx-auto mt-6">
+                <a 
+                  href="https://apps.apple.com/us/app/dropcard-app/id6753614589" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <Image 
+                    src="/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" 
+                    alt="Download on the App Store" 
+                    width={135} 
+                    height={40} 
+                    className="h-14 w-auto"
+                  />
+                </a>
               </div>
             </div>
           </div>
