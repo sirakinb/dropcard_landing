@@ -23,7 +23,10 @@ export default function Page() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 h-14 flex items-center justify-between">
           <Link href="#" className="flex items-center gap-3 font-semibold tracking-tight">
             <Image src="/card/dc_logo.png" alt="DropCard logo" width={48} height={48} className="h-12 w-12" />
-            <span>DropCard</span>
+            <span className="flex flex-col leading-tight">
+              <span>DropCard</span>
+              <span className="text-[11px] font-normal text-stone-500">Part of the Pentridge product suite</span>
+            </span>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm text-stone-700">
             {navItems.map((item) => (
@@ -212,7 +215,6 @@ export default function Page() {
                 {' '}Need help? Visit our{' '}
                 <Link href="/help" className="underline hover:text-stone-800">Help page</Link>.
               </p>
-              <p>© 2025 Pentridge Media LLC. All rights reserved.</p>
             </div>
           </div>
         </section>
@@ -221,25 +223,33 @@ export default function Page() {
       {/* Footer */}
       <footer className="border-t border-stone-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-stone-600">
-          <div className="font-medium text-stone-800 flex items-center gap-2">
-            <span>Built with</span>
-            <span aria-label="heart" role="img" className="align-middle">🖤</span>
-            <a href="https://pentridgemedia.com/" target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">by Pentridge Media</a>
-          </div>
-          <nav className="flex items-center gap-4">
-            <a href="#features" className="hover:text-stone-800">Features</a>
-            <a href="#how-it-works" className="hover:text-stone-800">How it works</a>
-            <a href="#card" className="hover:text-stone-800">NFC Card</a>
-            <a href="#faq" className="hover:text-stone-800">FAQ</a>
-          </nav>
-      <div className="flex items-center gap-4 text-xs">
-        <Link href="/help" className="hover:text-stone-800">Help</Link>
-        <span className="text-stone-400">•</span>
-        <Link href="/terms" className="hover:text-stone-800">Terms of Service</Link>
-        <span className="text-stone-400">•</span>
-        <Link href="/privacy" className="hover:text-stone-800">Privacy Policy</Link>
-      </div>
           <div className="flex items-center gap-4">
+            <Image src="/card/dc_logo.png" alt="DropCard logo" width={40} height={40} className="h-10 w-10" />
+            <a
+              href="https://apps.apple.com/us/app/dropcard-app/id6753614589"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <Image
+                src="/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+                alt="Download on the App Store"
+                width={135}
+                height={40}
+                className="h-10 w-auto"
+              />
+            </a>
+          </div>
+          <div className="flex items-center gap-6">
+            <span>© 2026 DropCard App. All Rights Reserved.</span>
+            <a
+              href="https://pentridgemedia.com/labs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-stone-500 hover:text-stone-800 underline-offset-2 hover:underline"
+            >
+              Pentridge Labs
+            </a>
           </div>
         </div>
       </footer>
@@ -264,7 +274,21 @@ function Feature({ icon: Icon, title, desc }: { icon: any; title: string; desc: 
 const faqItems = [
   {
     q: 'Is the app free?',
-    a: 'Yes. The core app is free to use. There’s also a Pro version that includes advanced features such as AI chat and increased usage of the selfie contact memory feature.',
+    a: (
+      <>
+        Yes. The core app is free to use. Advanced features such as CRM integration are included with a Pentridge
+        subscription.{' '}
+        <a
+          href="https://pentridgemedia.com/labs"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-stone-800"
+        >
+          Learn more
+        </a>
+        .
+      </>
+    ),
   },
   {
     q: 'Do recipients need the app?',
